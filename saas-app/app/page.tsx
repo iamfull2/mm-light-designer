@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
     <>
@@ -17,7 +15,10 @@ export default function Home() {
                 <a href="#home" className="hover:text-neon-blue px-3 py-2 rounded-md text-sm font-medium transition-colors">HOME</a>
                 <a href="#services" className="hover:text-neon-blue px-3 py-2 rounded-md text-sm font-medium transition-colors">SERVIÇOS</a>
                 <a href="#portfolio" className="hover:text-neon-blue px-3 py-2 rounded-md text-sm font-medium transition-colors">PORTFÓLIO</a>
-                <a href="#contact" className="bg-neon-purple/20 border border-neon-purple/50 hover:bg-neon-purple/40 px-4 py-2 rounded-full text-sm font-medium transition-all">CONTATO</a>
+                <a href="#contact" className="hover:text-neon-blue px-3 py-2 rounded-md text-sm font-medium transition-colors">CONTATO</a>
+                <a href="/login" className="bg-gradient-to-r from-neon-purple to-neon-blue text-black px-6 py-2 rounded-full text-sm font-bold transition-all hover:opacity-90 shadow-[0_0_20px_rgba(176,38,255,0.4)]">
+                  ÁREA DO CLIENTE
+                </a>
               </div>
             </div>
           </div>
